@@ -1,0 +1,116 @@
+# ninja log v5
+1	226	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.xcl	10e0974042e99850
+26	235	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.xcl	153abfdf0eeb4886
+40	254	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.xcl	573b96f6f1cbb4f0
+254	412	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.xcl	57bc3900921cb1e
+3	233	7017197840000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_spi.xcl	772bd5b589dcee83
+413	556	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.xcl	a3299825cf6125f1
+32	244	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.xcl	30966794b81ab806
+545	740	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/stm32f4xx_hal_msp.xcl	8860f1ae127ace11
+227	361	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/CMSIS/system_stm32f4xx.xcl	54b7665fd7938b47
+405	544	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.xcl	d22d8bdaea56beb9
+236	377	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.xcl	e713c7cc17a6e400
+245	404	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.xcl	81b5cdda12442d1b
+325	671	7018041836236140	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+361	500	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.xcl	9c0397ac110122a0
+378	517	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.xcl	936d84cbe7eb96c7
+501	644	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/stm32f4xx_it.xcl	cd8a7227acfd2c52
+518	706	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.xcl	3be93562e9655c93
+14	655	7018022697630428	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/stm32f4xx_it.pbi	2af2e7fbebcf5085
+557	750	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.xcl	17339f9058350782
+645	809	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.xcl	f7c1990e40c9e526
+673	1006	7018041839585838	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+2063	2676	7017197779018569	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part1.pbi	c09e4a2b2600ab32
+751	893	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.xcl	3930100549e631a8
+2843	3461	7017197786889618	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.pbi	c23ad55166ed0653
+810	932	7017165470000000	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.xcl	b5b46beaa1115920
+4	317	7018022785813011	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/stm32f4xx_hal_msp.pbi	a0ff2a5f2033470f
+1758	2366	7017197776017882	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.pbi	2886b5e0f89e810d
+1202	1756	7017197769873267	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.pbi	e37c7c871859e722
+15	562	7017197757894897	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.pbi	b0c1488a2c84479d
+4	322	7018041832623605	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+565	1035	7017197762717002	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.pbi	416fc25e48c3190a
+540	1120	7017197763564607	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/CMSIS/system_stm32f4xx.pbi	69617ff68f041f77
+2125	2730	7017197779650568	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.pbi	4f554399368dddc
+1011	1561	7017197767979208	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.pbi	2d6703b528f9278f
+679	1200	7017197764351395	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.pbi	d11ccac14819fede
+21	677	7017197759001103	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.pbi	271a38be3b59e727
+1600	2123	7017197773498897	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.pbi	2e5824f88e28e09a
+1692	2184	7017197774129919	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.pbi	316ab81fb0001a8e
+1124	1689	7017197769236152	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.pbi	c1a161106a4c4141
+1038	1597	7017197768304545	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.pbi	5a634701d271b8cb
+1563	2061	7017197772867842	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.pbi	695430b5f504f063
+2678	3279	7017197785160081	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part2.pbi	f0d0f8bc8d85b781
+2186	2841	7017197780750357	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.pbi	6d3a0791ce216382
+2368	2995	7017197782161303	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part3.pbi	75c2c69a4d0355c9
+663	1034	7017197855124736	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part4.pbi	416663a411f83209
+1008	2862	7018041857671886	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+234	660	7017197851342816	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_spi.pbi	fdefa77c02825e0f
+4	307	7018042264761165	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+309	663	7018042268215011	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+666	993	7018042271514113	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+994	2845	7018042289600337	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+3	381	7018042596682620	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+384	728	7018042600294398	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+731	1068	7018042603597541	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+1071	2882	7018042621369402	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+4	307	7018043078902540	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+309	646	7018043082360986	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+648	999	7018043085820576	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+1001	2665	7018043102039488	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+3	311	7018043408420697	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+313	650	7018043411723394	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+653	989	7018043415172979	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+992	2793	7018043432793928	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+4	316	7018043487232444	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+318	659	7018043490686143	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+661	989	7018043493987339	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+992	2737	7018043510967067	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+3	324	7018043716786046	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+327	648	7018043720088564	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+650	963	7018043723226905	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+965	2690	7018043740044322	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+4	410	7018044299311573	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+413	777	7018044303007117	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+780	1129	7018044306533827	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+1131	2955	7018044324306095	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+4	315	7018044530156254	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+317	665	7018044533647624	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+668	1014	7018044537080556	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+1015	2698	7018044553613214	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+3	304	7018045061438039	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+307	628	7018045064743248	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+631	952	7018045067898400	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+954	2580	7018045083771009	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+4	304	7018045188568420	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+307	627	7018045191868993	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+631	943	7018045195019437	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+947	2716	7018045212334368	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+3	312	7018045720002263	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+315	644	7018045723295848	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+649	995	7018045726759538	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+998	2751	7018045743905262	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+3	302	7018045949610396	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+305	644	7018045953073405	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+647	963	7018045956224366	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+967	2755	7018045973673901	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+4	308	7018046028220417	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+310	666	7018046031842432	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+667	982	7018046034986979	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+984	2689	7018046051515263	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+4	322	7018046509264322	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+325	688	7018046513040132	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+689	1061	7018046516769803	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+1063	2771	7018046533319328	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+4	327	7018046739276099	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+330	665	7018046742660097	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+668	994	7018046745878122	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+997	2650	7018046762058010	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+3	335	7018046967885570	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+337	674	7018046971311705	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+676	1001	7018046974614317	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+1003	2699	7018046990970366	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac
+4	314	7018047405874393	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/Application/User/Core/main.pbi	ed45b27533109f62
+318	656	7018047409273775	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project_part0.pbi	8b882c3e40cd43f1
+658	979	7018047412475783	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbd	fec5793afd9f6a57
+983	2741	7018047429453803	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/BrowseInfo/FInal Project.pbw	bb995bb90edaf5ac

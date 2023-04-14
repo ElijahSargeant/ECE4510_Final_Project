@@ -50,10 +50,10 @@
 /* Private variables ---------------------------------------------------------*/
 SPI_HandleTypeDef hspi4;
 
+TIM_HandleTypeDef htim2;
 TIM_HandleTypeDef htim3;
 TIM_HandleTypeDef htim5;
 TIM_HandleTypeDef htim9;
-TIM_HandleTypeDef htim12;
 
 /* USER CODE BEGIN PV */
 
@@ -66,7 +66,7 @@ static void MX_SPI4_Init(void);
 static void MX_TIM5_Init(void);
 static void MX_TIM9_Init(void);
 static void MX_TIM3_Init(void);
-static void MX_TIM12_Init(void);
+static void MX_TIM2_Init(void);
 /* USER CODE BEGIN PFP */
 
 void startSequence();
@@ -148,25 +148,31 @@ void LCD_Sel_Row_Col(uint8_t row, uint8_t col)
 double countAtRisingEdgeUltrasonic;
 double pulseWidthUltrasonic;
 
+
 double countAtRisingEdgeEncoder;
-double pulseWidthEncoder;
+
+uint32_t currentTime = 0;
 
 void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim) {
   
   //E5 is for ultrasonic sensor
   if(HAL_GPIO_ReadPin(GPIOE, GPIO_PIN_5) == GPIO_PIN_SET) {
     countAtRisingEdgeUltrasonic = TIM9 -> CNT;
-  } else if (HAL_GPIO_ReadPin(GPIOE, GPIO_PIN_5) == GPIO_PIN_RESET) {
+    
+    
+  } else if ( (HAL_GPIO_ReadPin(GPIOE, GPIO_PIN_5) == GPIO_PIN_RESET) ) {
     pulseWidthUltrasonic = (TIM9 -> CNT - countAtRisingEdgeUltrasonic); 
     TIM9 -> CNT = 0;
   }
   
-  //B14 is for Encoder
-  if(HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_14) == GPIO_PIN_SET) {
-    countAtRisingEdgeEncoder = TIM9 -> CNT;
-  } else if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_14) == GPIO_PIN_RESET) {
-    pulseWidthEncoder = (TIM9 -> CNT - countAtRisingEdgeEncoder); 
-    TIM9 -> CNT = 0;
+  //A5 is for Encoder
+  if(htim -> Instance == TIM2) {
+      //calculate freq
+    if( (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_5) == GPIO_PIN_SET && (HAL_GetTick() - currentTime) > 1) ) {
+      countAtRisingEdgeEncoder = TIM2 -> CNT;
+      TIM2 -> CNT = 0;
+      currentTime = HAL_GetTick();
+    }
   }
 }
 
@@ -213,6 +219,7 @@ Bonus #3: I/O good**
   -Tim5 Ch1 is for Trigger
 */
 
+//START SEQUENCE IS GOOD*******************************
 void startSequence() {
   
   
@@ -229,6 +236,8 @@ void startSequence() {
     
     //Sound buzzer
     HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_2);
+    
+    
     
     //blink LED 6 times at 1Hz
     for(int i = 0; i < 6; i++) {
@@ -249,43 +258,59 @@ void startSequence() {
   }
 }
 
+int prevValue = 0;
+
 void loopSequence() {
   
+  //start h-bridge output
+  HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
   
-      //if reciever hasnt tripped
-  while((HAL_GPIO_ReadPin(GPIOD, GPIO_PIN_2) == GPIO_PIN_RESET) &&
-      //and estop hasnt triggered
-     (HAL_GPIO_ReadPin(GPIOD, GPIO_PIN_1) == GPIO_PIN_SET)   &&
-      //distance is good on both bounds
-     ((pulseWidthUltrasonic / 148) < UPPER_DISTANCE_BOUND)   &&
-     ((pulseWidthUltrasonic / 148) > LOWER_DISTANCE_BOUND)) {
+  //start encoder reading
+  HAL_TIM_Base_Start_IT(&htim2);
+  HAL_TIM_IC_Start_IT(&htim2, TIM_CHANNEL_1);
+  
+  //start ultrasonic reading
+  HAL_TIM_PWM_Start(&htim5, TIM_CHANNEL_1);
+  HAL_TIM_IC_Start_IT(&htim9, TIM_CHANNEL_1);
+  
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, GPIO_PIN_SET);
+  
+  
+        //if reciever hasnt tripped
+  while(HAL_GPIO_ReadPin(GPIOD, GPIO_PIN_2) == GPIO_PIN_SET) {
        
        
-       //start h-bridge output
-       HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
-  
-       //start encoder reading
-       HAL_TIM_IC_Start_IT(&htim12, TIM_CHANNEL_1);
-  
-       //start ultrasonic reading
-       HAL_TIM_PWM_Start(&htim5, TIM_CHANNEL_1);
-       HAL_TIM_IC_Start_IT(&htim9, TIM_CHANNEL_1);
-         
-       //use encoder pulsewidth to update h-bridge duty %
-       TIM3 -> CCR1 = TIM3 -> ARR * ((int)((-50 * (1 / pulseWidthEncoder) + 325) / 100));
-       
-       //otherwise stop everthing
-     }
+    
+    if (countAtRisingEdgeEncoder < 3.5E6 && countAtRisingEdgeEncoder > 1E6) { TIM3 -> CCR1 = 450;} //10%
+    else if (countAtRisingEdgeEncoder < 3.7E6 ) {TIM3 -> CCR1 = 900;} //20%
+    else if (countAtRisingEdgeEncoder < 3.9E6 ) {TIM3 -> CCR1 = 1350;} //30%
+    else if (countAtRisingEdgeEncoder < 4.0E6 ) {TIM3 -> CCR1 = 1800;} //40%
+    else if (countAtRisingEdgeEncoder < 4.1E6 ) {TIM3 -> CCR1 = 2250;} //50%
+    else if (countAtRisingEdgeEncoder < 4.25E6) {TIM3 -> CCR1 = 2700;} //60%
+    else if (countAtRisingEdgeEncoder < 4.45E6) {TIM3 -> CCR1 = 3150;} //70%
+    else if (countAtRisingEdgeEncoder < 4.6E6) {TIM3 -> CCR1 = 3600;} //80%
+    else if (countAtRisingEdgeEncoder < 4.8E8) {TIM3 -> CCR1 = 4050;} //90%
+    else if (countAtRisingEdgeEncoder <= 1E6 || countAtRisingEdgeEncoder >= 4.8E8){TIM3 -> CCR1 = prevValue;}
+    
+    prevValue = TIM3 -> CCR1;
+      
+  }
        
   //stop h-bridge output
   HAL_TIM_PWM_Stop(&htim3, TIM_CHANNEL_1);
   
   //stop encoder reading
-  HAL_TIM_IC_Stop_IT(&htim12, TIM_CHANNEL_1);
+  HAL_TIM_IC_Stop_IT(&htim2, TIM_CHANNEL_1);
  
   //stop ultrasonic reading
   HAL_TIM_PWM_Stop(&htim5, TIM_CHANNEL_1);
   HAL_TIM_IC_Stop_IT(&htim9, TIM_CHANNEL_1);
+  
+  //turn of IR emmitter
+  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_3, GPIO_PIN_RESET);
+  
+  
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, GPIO_PIN_RESET);
         
   //estop
   if(HAL_GPIO_ReadPin(GPIOD, GPIO_PIN_1) == GPIO_PIN_RESET) {
@@ -295,6 +320,8 @@ void loopSequence() {
   }
 }
 
+         
+//END IS GOOD****************************************
 void endSequence() {
   
   //update LCD
@@ -319,8 +346,7 @@ void endSequence() {
   //stop buzzer
   HAL_TIM_PWM_Stop(&htim3, TIM_CHANNEL_2);
   
-  //turn of IR emmitter
-  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_3, GPIO_PIN_RESET);
+  
 }
 
 void emergencyEndSequence() {
@@ -367,7 +393,7 @@ int main(void)
   MX_TIM5_Init();
   MX_TIM9_Init();
   MX_TIM3_Init();
-  MX_TIM12_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -476,6 +502,64 @@ static void MX_SPI4_Init(void)
 }
 
 /**
+  * @brief TIM2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM2_Init(void)
+{
+
+  /* USER CODE BEGIN TIM2_Init 0 */
+
+  /* USER CODE END TIM2_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+  TIM_IC_InitTypeDef sConfigIC = {0};
+
+  /* USER CODE BEGIN TIM2_Init 1 */
+
+  /* USER CODE END TIM2_Init 1 */
+  htim2.Instance = TIM2;
+  htim2.Init.Prescaler = 0;
+  htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim2.Init.Period = 4294967295;
+  htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim2, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_IC_Init(&htim2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim2, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sConfigIC.ICPolarity = TIM_INPUTCHANNELPOLARITY_BOTHEDGE;
+  sConfigIC.ICSelection = TIM_ICSELECTION_DIRECTTI;
+  sConfigIC.ICPrescaler = TIM_ICPSC_DIV1;
+  sConfigIC.ICFilter = 2;
+  if (HAL_TIM_IC_ConfigChannel(&htim2, &sConfigIC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM2_Init 2 */
+
+  /* USER CODE END TIM2_Init 2 */
+
+}
+
+/**
   * @brief TIM3 Initialization Function
   * @param None
   * @retval None
@@ -524,6 +608,10 @@ static void MX_TIM3_Init(void)
   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
   if (HAL_TIM_PWM_ConfigChannel(&htim3, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_PWM_ConfigChannel(&htim3, &sConfigOC, TIM_CHANNEL_2) != HAL_OK)
   {
     Error_Handler();
   }
@@ -645,57 +733,6 @@ static void MX_TIM9_Init(void)
 }
 
 /**
-  * @brief TIM12 Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_TIM12_Init(void)
-{
-
-  /* USER CODE BEGIN TIM12_Init 0 */
-
-  /* USER CODE END TIM12_Init 0 */
-
-  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
-  TIM_IC_InitTypeDef sConfigIC = {0};
-
-  /* USER CODE BEGIN TIM12_Init 1 */
-
-  /* USER CODE END TIM12_Init 1 */
-  htim12.Instance = TIM12;
-  htim12.Init.Prescaler = 180-1;
-  htim12.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim12.Init.Period = 60000;
-  htim12.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
-  htim12.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
-  if (HAL_TIM_Base_Init(&htim12) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
-  if (HAL_TIM_ConfigClockSource(&htim12, &sClockSourceConfig) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  if (HAL_TIM_IC_Init(&htim12) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  sConfigIC.ICPolarity = TIM_INPUTCHANNELPOLARITY_BOTHEDGE;
-  sConfigIC.ICSelection = TIM_ICSELECTION_DIRECTTI;
-  sConfigIC.ICPrescaler = TIM_ICPSC_DIV1;
-  sConfigIC.ICFilter = 0;
-  if (HAL_TIM_IC_ConfigChannel(&htim12, &sConfigIC, TIM_CHANNEL_1) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN TIM12_Init 2 */
-
-  /* USER CODE END TIM12_Init 2 */
-
-}
-
-/**
   * @brief GPIO Initialization Function
   * @param None
   * @retval None
@@ -708,11 +745,14 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOE_CLK_ENABLE();
   __HAL_RCC_GPIOH_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
-  __HAL_RCC_GPIOB_CLK_ENABLE();
   __HAL_RCC_GPIOD_CLK_ENABLE();
+  __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOD, GPIO_PIN_3|GPIO_PIN_4, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOE, LCDReset_Pin|LCDCE_Pin, GPIO_PIN_RESET);
@@ -729,6 +769,13 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PB4 */
+  GPIO_InitStruct.Pin = GPIO_PIN_4;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /*Configure GPIO pins : LCDReset_Pin LCDCE_Pin */
   GPIO_InitStruct.Pin = LCDReset_Pin|LCDCE_Pin;

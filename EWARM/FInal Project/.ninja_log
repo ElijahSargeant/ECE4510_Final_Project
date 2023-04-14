@@ -1,47 +1,94 @@
 # ninja log v5
-114	230	7018047007942847	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/EWARM/startup_stm32f429xx.o	7d0d886d4a906b07
-96	642	7018047011890411	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/stm32f4xx_it.o	c6899f781685565e
-232	758	7018047012993985	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.o	7c76c5e3580f9c00
-100	769	7018047012993985	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/stm32f4xx_hal_msp.o	937f9f303ee81ae1
-2	1142	7018047016798078	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/main.o	f6caa82b0c38f849
-773	1168	7018047016954138	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/CMSIS/system_stm32f4xx.o	707f28b45efe3967
-646	1179	7018047017189496	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.o	c5c24022fe444ed6
-1172	1603	7018047021526380	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o	87498b7ba90a11f5
-762	1660	7018047021996565	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.o	aef09be5f4e5e35a
-1183	1725	7018047022741768	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.o	f2347cc2683c21f6
-1146	1906	7018047024518310	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.o	77f240958a7adf41
-1607	2036	7018047025817361	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.o	a01b570b9288bce6
-1664	2227	7018047027668254	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o	70a5432bd5ac290b
-1910	2268	7018047027984089	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.o	aeb522ee82ae4f1f
-1728	2368	7018047029123712	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.o	8a0720880f465121
-2271	2734	7018047032857528	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.o	fb0c583033561403
-2372	3226	7018047037747346	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o	6b4a3bf923a7c333
-2738	3415	7018047039633904	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.o	e283f686ada6d06b
-2231	3759	7018047042931892	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.o	7232aacdd879b791
-3230	4615	7018047051587309	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_spi.o	2a11c35c47bf8745
-2040	4989	7018047055379873	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.o	c293868caec8ffe0
-4991	5167	7018047057261776	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.out	adf562a5114ba7b8
-5171	5223	7018047057888624	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.hex	c368631d128c295e
-6	32	7018047356984326	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/EWARM/startup_stm32f429xx.o	7d0d886d4a906b07
-20	336	7018047359967081	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/stm32f4xx_it.o	c6899f781685565e
-34	406	7018047360596193	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o	87498b7ba90a11f5
-14	455	7018047361116404	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/stm32f4xx_hal_msp.o	937f9f303ee81ae1
-10	691	7018047363428363	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/main.o	f6caa82b0c38f849
-458	778	7018047364374894	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/CMSIS/system_stm32f4xx.o	707f28b45efe3967
-338	1108	7018047367670968	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.o	77f240958a7adf41
-695	1142	7018047367984251	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.o	7c76c5e3580f9c00
-409	1239	7018047368934303	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.o	aef09be5f4e5e35a
-782	1272	7018047369293202	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.o	c5c24022fe444ed6
-1243	1525	7018047371772259	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.o	aeb522ee82ae4f1f
-1112	1673	7018047373191704	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.o	f2347cc2683c21f6
-1276	1684	7018047373191704	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.o	a01b570b9288bce6
-1146	1797	7018047374450170	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.o	8a0720880f465121
-1688	2118	7018047377752101	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.o	fb0c583033561403
-1530	2165	7018047378226776	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o	70a5432bd5ac290b
-1677	2355	7018047380111573	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o	6b4a3bf923a7c333
-1800	2423	7018047380742246	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.o	e283f686ada6d06b
-2121	3558	7018047392044609	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_spi.o	2a11c35c47bf8745
-2358	3592	7018047392517414	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.o	7232aacdd879b791
-2169	4452	7018047400998640	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.o	c293868caec8ffe0
-4458	4544	7018047401946896	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.out	adf562a5114ba7b8
-4549	4561	7018047402258632	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.hex	c368631d128c295e
+1518	2924	7030984208385628	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.o	7232aacdd879b791
+19	350	7030984182695424	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/stm32f4xx_it.o	c6899f781685565e
+3	34	7030984179683948	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/EWARM/startup_stm32f429xx.o	7d0d886d4a906b07
+860	1340	7030984192470065	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.o	c5c24022fe444ed6
+759	1096	7030984190097257	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/CMSIS/system_stm32f4xx.o	707f28b45efe3967
+446	856	7030984187728721	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.o	7c76c5e3580f9c00
+13	442	7030984183485288	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/stm32f4xx_hal_msp.o	937f9f303ee81ae1
+4	574	7031015938886974	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/main.o	f6caa82b0c38f849
+10	409	7031007489169540	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o	87498b7ba90a11f5
+36	755	7030984186627834	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.o	aef09be5f4e5e35a
+1344	1840	7030984197509918	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.o	f2347cc2683c21f6
+352	1078	7030984189941143	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.o	77f240958a7adf41
+1081	1486	7030984194041842	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.o	a01b570b9288bce6
+1099	1653	7030984195615748	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o	70a5432bd5ac290b
+1210	1515	7030984194358029	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.o	aeb522ee82ae4f1f
+1489	2098	7030984200178950	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.o	8a0720880f465121
+2102	2531	7030984204421788	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.o	fb0c583033561403
+2442	3124	7030984210376573	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o	6b4a3bf923a7c333
+1844	2439	7030984203474313	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.o	e283f686ada6d06b
+1657	3244	7030984211626750	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_spi.o	2a11c35c47bf8745
+2535	4761	7030984226641909	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.o	c293868caec8ffe0
+576	667	7031015939827699	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.out	adf562a5114ba7b8
+673	686	7031015940168124	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.hex	c368631d128c295e
+3	526	7031017233918294	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/main.o	f6caa82b0c38f849
+528	623	7031017234863591	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.out	adf562a5114ba7b8
+626	639	7031017235176313	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.hex	c368631d128c295e
+4	856	7031922051695973	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/main.o	f6caa82b0c38f849
+860	1194	7031922054981450	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.out	adf562a5114ba7b8
+1197	1248	7031922055764902	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.hex	c368631d128c295e
+3	493	7031924799743641	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/main.o	f6caa82b0c38f849
+497	593	7031924800682134	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.out	adf562a5114ba7b8
+596	613	7031924800997751	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.hex	c368631d128c295e
+3	559	7031925106612156	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/main.o	f6caa82b0c38f849
+561	653	7031925107710567	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.out	adf562a5114ba7b8
+659	671	7031925107866903	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.hex	c368631d128c295e
+2	451	7031929218966539	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/main.o	f6caa82b0c38f849
+455	552	7031929219908916	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.out	adf562a5114ba7b8
+555	571	7031929220226989	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.hex	c368631d128c295e
+2	473	7031929817297713	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/main.o	f6caa82b0c38f849
+475	565	7031929818244541	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.out	adf562a5114ba7b8
+569	583	7031929818399879	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.hex	c368631d128c295e
+3	143	7031932083071566	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/EWARM/startup_stm32f429xx.o	7d0d886d4a906b07
+110	467	7031932086218695	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/stm32f4xx_it.o	c6899f781685565e
+104	544	7031932087003507	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/stm32f4xx_hal_msp.o	937f9f303ee81ae1
+145	590	7031932087335546	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o	87498b7ba90a11f5
+99	887	7031932090449174	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/main.o	f6caa82b0c38f849
+469	957	7031932091077905	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.o	c5c24022fe444ed6
+891	1219	7031932093739732	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/CMSIS/system_stm32f4xx.o	707f28b45efe3967
+595	1350	7031932095004186	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.o	77f240958a7adf41
+548	1395	7031932095501811	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.o	aef09be5f4e5e35a
+961	1423	7031932095639110	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.o	7c76c5e3580f9c00
+1399	1703	7031932098619390	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.o	aeb522ee82ae4f1f
+1428	1823	7031932099722279	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.o	a01b570b9288bce6
+1222	1935	7031932100820973	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o	70a5432bd5ac290b
+1354	2016	7031932101604470	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.o	8a0720880f465121
+1707	2250	7031932103948142	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.o	f2347cc2683c21f6
+1939	2656	7031932108020483	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o	6b4a3bf923a7c333
+2020	2668	7031932108020483	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.o	e283f686ada6d06b
+2660	3074	7031932112254338	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.o	fb0c583033561403
+2672	3876	7031932120227675	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.o	7232aacdd879b791
+2254	3900	7031932120499827	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_spi.o	2a11c35c47bf8745
+1827	4501	7031932126483947	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.o	c293868caec8ffe0
+4505	4594	7031932127586553	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.out	adf562a5114ba7b8
+4597	4610	7031932127756706	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.hex	c368631d128c295e
+9	776	7031937450396575	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/main.o	f6caa82b0c38f849
+779	941	7031937451965649	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.out	adf562a5114ba7b8
+945	991	7031937452655590	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.hex	c368631d128c295e
+4	508	7031939002010585	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/main.o	f6caa82b0c38f849
+511	603	7031939002957481	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.out	adf562a5114ba7b8
+607	622	7031939003270230	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.hex	c368631d128c295e
+3	109	7031944403109102	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/EWARM/startup_stm32f429xx.o	7d0d886d4a906b07
+76	598	7031944407754561	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/stm32f4xx_it.o	c6899f781685565e
+66	713	7031944408862322	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/stm32f4xx_hal_msp.o	937f9f303ee81ae1
+601	1102	7031944412789140	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.o	7c76c5e3580f9c00
+111	1175	7031944413426639	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.o	aef09be5f4e5e35a
+716	1187	7031944413583052	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o	87498b7ba90a11f5
+71	1230	7031944413743308	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Application/User/Core/main.o	f6caa82b0c38f849
+1106	1489	7031944416696417	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/CMSIS/system_stm32f4xx.o	707f28b45efe3967
+1179	1673	7031944418456240	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.o	c5c24022fe444ed6
+1234	1704	7031944418772748	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.o	a01b570b9288bce6
+1677	2016	7031944421925342	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.o	aeb522ee82ae4f1f
+1191	2075	7031944422550834	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.o	77f240958a7adf41
+1493	2109	7031944422705981	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.o	f2347cc2683c21f6
+1708	2392	7031944425709169	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.o	8a0720880f465121
+2079	2581	7031944427584264	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.o	fb0c583033561403
+2020	2690	7031944428711603	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o	70a5432bd5ac290b
+2694	3419	7031944435948612	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o	6b4a3bf923a7c333
+2396	3990	7031944441742726	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.o	7232aacdd879b791
+3423	4040	7031944442211609	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.o	e283f686ada6d06b
+2584	4328	7031944445047035	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_spi.o	2a11c35c47bf8745
+2114	5192	7031944453756317	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.o	c293868caec8ffe0
+5196	5297	7031944454791579	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.out	adf562a5114ba7b8
+5301	5320	7031944455105933	C:/Users/sarge/OneDrive - Western Michigan University/Spring2023/ECE4510/FInal Project/EWARM/FInal Project/Exe/FInal Project.hex	c368631d128c295e
